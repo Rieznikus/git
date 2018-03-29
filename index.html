@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Front-end курс в Киеве</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="fav.png" type="image/png">
+    <link rel="stylesheet" href="css/bundle.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Halant:300,400" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/main.css">
+ 
+ 
+  </head>
+ 
+
+  <body>
+    <!-- Preloader-->
+    <div id="loader">
+      <div class="centrize">
+        <div class="v-center">
+          <div id="mask">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Preloader-->
+    <!-- Navigation Bar-->
+    <header id="topnav">
+      <div class="container">
+        <!-- Logo container-->
+        <div class="logo">
+          <a href="index.html">
+            <img src="images/logo-white.png" alt="" class="logo-light">
+            <img src="images/logo-blck.png" alt="" class="logo-dark">
+          </a>
+        </div>
+        <!-- End Logo container-->
+        <div class="menu-extras">
+          <div class="menu-item"> 
+          </div>
+          <div class="menu-item">
+          </div>
+          <div class="menu-item">
+            <!-- Mobile menu toggle-->
+            <a class="navbar-toggle">
+              <div class="lines">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </a>
+            <!-- End mobile menu toggle-->
+          </div>
+        </div>
+        <div id="navigation">
+          <!-- Navigation Menu-->
+  
+          <!-- End navigation menu        -->
+        </div>
+      </div>
+    </header>
+    <!-- End Navigation Bar-->
+    <!-- Home section-->
+    <section id="home" class="parallax " >
+      <div data-parallax="scroll" data-image-src="images/bg/22.jpg" class="parallax-bg"></div>
+      <div class="slide-wrap">
+        <div class="slide-content text-left">
+          <div class="container"> 
+            <!-- Text rotator-->
+            <div id="text-rotator" class="flexslider">
+              <ul class="slides">
+                <li>
+                 <h1>Курс "Front-End Start" <br /> <span>Первое занятие</span></h1>
+                </li> 
+              </ul> 
+            </div>
+            <!-- end of text rotator-->
+            <p class="mt-25"> <a target="_blank" href="https://github.com/" class="btn btn-color btn-full">Github</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <section>
+        <div class="container">
+            <h2>Домашнее задание, занятие №1</h2><br /><br /> 
+             
+                  <p style="color:#000">
+                        - Выбрать для себя подходящий редактор<br />
+                        - Работа с Git<br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Зарегистрироваться в github<br /> 
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Склонировать (Форкнуть) репозиторий в свой аккаунт - <br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Установить на компьютер git<br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Вписать в README нужную информацию базовую лицензию <br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Сделать первый коммит и сделать любое изменение в github<br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Отправить ссылку на профиль в Telegram<br />
+                        - Познакомиться с HTML (курсы Академии) - <a target="_blank" href="http://htmlacademy.ru">http://htmlacademy.ru</a><br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Пройти курс «Знакомство»<br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Пройти курс «Структура HTML-документа»<br />
+                  </p>
+        </div>
+    </section>
+ 
+    
+     
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-wrap">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="copy-text">
+                <p><i class="icon-heart red mr-15"></i>© 2018 IT TEPLIZA</p>
+              </div>
+            </div>  
+          </div>
+          <!-- end of row-->
+        </div>
+      </div>
+      <!-- end of container-->
+    </footer>
+ 
+  
+    
+   
+ 
+    <!-- end of footer-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bundle.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/typed.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.js"></script>
+    <script> $(function(){
+ $('#contact-form').validate();
+});</script>
+    <script>
+        // typed.js
+          $(function () {
+            $(".typed").typed({
+              strings: ["высокооплачиваемую", "быстрорастущую", "инновационную"],
+              typeSpeed: 50,
+              backDelay: 2000,
+              loop: true
+            });
+          }); 
+         $(function () {
+            $(".typeds").typed({
+              strings: ["прибыльно", "престижно", "выгодно"],
+              typeSpeed: 50,
+              backDelay: 2000,
+              loop: true
+            });
+          }); 
+        $('[data-fancybox]').fancybox({
+            protect: true
+        });
+  
+
+ 
+    </script>
+  </body>
+  
+  
+<script type="text/javascript" src="//cdn.callbackhunter.com/cbh.js?hunter_code=ae2857cd8f3a3c30d44954aeaa86ad61" charset="UTF-8"></script>
+
+ 
+ 
+ 
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114544467-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-114544467-1');
+    
+    $(document).ready(function(){
+$('a[href*=#]').bind("click", function(e){
+var anchor = $(this);
+$('html, body').stop().animate({
+scrollTop: $(anchor.attr('href')).offset().top
+}, 800);
+e.preventDefault();
+});
+return false;
+});
+</script>
+
+</html>
+<!-- Localized -->
